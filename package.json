@@ -10,9 +10,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*": [
-      "yarn lint --fix"
-    ]
+    "src/**/*": ["yarn lint --fix"]
   },
   "dependencies": {
     "next": "9.4.4",
